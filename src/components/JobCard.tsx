@@ -68,7 +68,7 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onPress, onBookmarkPress 
             {job.job_role}
           </Text>
           <Text style={styles.company} numberOfLines={1}>
-            🏢 {job.company_name}
+            {job.company_name}
           </Text>
           
           <View style={styles.detailsContainer}>

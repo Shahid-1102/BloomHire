@@ -21,7 +21,6 @@ export const JobsScreen: React.FC<JobsScreenProps> = ({ navigation }) => {
       setError(null);
       if (!refresh) setLoading(true);
       const response = await fetchJobs();
-      // Filter out jobs with null/undefined titles or required fields
       const validJobs = response.results.filter(job =>
         job &&
         job.job_role &&

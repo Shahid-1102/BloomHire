@@ -78,7 +78,7 @@ export const JobDetailScreen: React.FC<Props> = ({ route, navigation }) => {
           </TouchableOpacity>
         </View>
         <View style={styles.companyContainer}>
-          <Text style={styles.company}>🏢 {jobDetails.company_name}</Text>
+          <Text style={styles.company}>{jobDetails.company_name}</Text>
           <View style={styles.categoryTag}>
             <Text style={styles.categoryText}>{jobDetails.job_category}</Text>
           </View>
@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5F6FA',
   },
   header: {
-    backgroundColor: '#0066CC',
+    backgroundColor: '#A9A9A9',
     padding: 20,
     paddingTop: 40,
   },
