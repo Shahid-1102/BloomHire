@@ -3,7 +3,7 @@
 ## Video Reference:
 <p style="text-align: center;">
   <a href="https://drive.google.com/file/d/1KnhVgbZIb9L2LjfmBnypaYKHLgmul3yo/view?usp=sharing" target="_blank">
-    <img src="assets/images/Thumbnail.png" width="400" />
+    <img src="assets/images/Thumbnai.png" width="400" />
   </a>
 </p>
 
