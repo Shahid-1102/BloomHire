@@ -52,15 +52,6 @@ export const JobCard: React.FC<JobCardProps> = ({ job, onPress, onBookmarkPress 
               <Text style={styles.initials}>{initials}</Text>
             </View>
           )}
-          <TouchableOpacity 
-            style={styles.bookmarkButton} 
-            onPress={onBookmarkPress}
-            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-          >
-            <Text style={styles.bookmarkIcon}>
-              {job.is_bookmarked ? '♥︎' : '♡'}
-            </Text>
-          </TouchableOpacity>
         </View>
         
         <View style={styles.contentContainer}>
