@@ -180,6 +180,14 @@ export const JobDetailScreen: React.FC<Props> = ({ route, navigation }) => {
           <Text style={styles.contactButtonText}>💬 WhatsApp</Text>
         </TouchableOpacity>
       </View>
+      <View>
+      <TouchableOpacity
+          style={[styles.contactButton, styles.applyBtn]}
+          onPress={handleWhatsApp}
+        >
+          <Text style={styles.contactButtonText}>Apply Now</Text>
+        </TouchableOpacity>
+      </View>
 
       <Modal
         visible={!!selectedImage}
@@ -361,15 +369,18 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
   },
   callButton: {
-    backgroundColor: '#0066CC',
+    backgroundColor: '#109ED7',
   },
   whatsappButton: {
-    backgroundColor: '#25D366',
+    backgroundColor: '#50DE13',
   },
   contactButtonText: {
     color: 'white',
     fontSize: 16,
     fontWeight: '600',
+  },
+  applyBtn: {
+    backgroundColor: "#FE7654",
   },
   modalContainer: {
     flex: 1,
